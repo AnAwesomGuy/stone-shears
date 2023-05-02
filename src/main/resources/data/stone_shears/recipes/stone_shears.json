@@ -1,0 +1,18 @@
+{
+  "parent": "recipes/root",
+  "criteria": {
+    "has_cobblestone": {
+      "trigger": "inventory_changed",
+      "conditions": {"items": [{"tag": "stone_crafting_materials"}]}
+    },
+    "has_the_recipe": {
+      "trigger": "recipe_unlocked",
+      "conditions": {"recipe": "stone_shears:stone_shears"}
+    }
+  },
+  "requirements": [[
+    "has_cobblestone",
+    "has_the_recipe"
+  ]],
+  "rewards": {"recipes": ["stone_shears:stone_shears"]}
+}

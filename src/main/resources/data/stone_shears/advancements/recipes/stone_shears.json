@@ -1,0 +1,6 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [" #", "# "],
+  "key": {"#": {"tag": "stone_crafting_materials"}},
+  "result": {"item": "stone_shears:stone_shears"}
+}
